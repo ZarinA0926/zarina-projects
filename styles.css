@@ -288,7 +288,7 @@ summary > span,
   background: #eee;
 }
 
-.copy { position: sticky; top: 4.25rem; }
+.panel-grid .copy { position: sticky; top: 4.25rem; }
 
 .copy p {
   margin: 0 0 0.8rem;
@@ -392,7 +392,7 @@ footer strong {
   .front h1,
   .copy p,
   .festival blockquote { max-width: 100%; }
-  .copy { position: static; }
+  .panel-grid .copy { position: static; }
   .panel { padding-left: 0; }
   summary { grid-template-columns: 2.75rem 1fr auto; gap: 0.7rem; }
   .thumb,
